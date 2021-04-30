@@ -96,7 +96,3 @@ func CombineResults(in, out chan interface{}) {
 	res := strings.Join(slice, "_")
 	out <- res
 }
-
-
-
-// сюда писать код
